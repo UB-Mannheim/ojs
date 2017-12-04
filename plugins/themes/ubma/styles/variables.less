@@ -1,0 +1,35 @@
+/**
+ * @file plugins/themes/defaultManuscript/styles/variables.less
+ *
+ * Copyright (c) 2014-2017 Simon Fraser University Library
+ * Copyright (c) 2003-2017 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @brief Common variables used through the the theme styles. They provide a
+ *  fully separated interface for defining variables, so that changes desired on
+ *  the frontend won't impact the backend.
+ */
+//
+// Colors
+//
+
+// Background
+@bg:                     #d0d0d0;
+@bg-shade:               #e2e2e2;
+@bg-light-shade:         rgba(0,0,0,0.05);
+@bg-base:                #990000; // Accent color used in the header
+@text-bg-base:           #ffffff;
+
+// Primary "anchor" color for links
+@primary:                #990000;
+@primary-lift:           lighten(@primary, 10%);
+
+// Accent color
+@accent:                 @primary;
+
+// Border colors
+@bg-border-color:        @bg-shade;
+
+// Font
+@font:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+@font-heading:  "Helvetica Neue",Helvetica,Arial,sans-serif;
