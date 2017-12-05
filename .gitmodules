@@ -44,3 +44,18 @@
 [submodule "plugins/reports/counter/classes/COUNTER"]
 	path = plugins/reports/counter/classes/COUNTER
 	url = https://github.com/ulsdevteam/COUNTER.git
+[submodule "plugins/generic/shariff"]
+	path = plugins/generic/shariff
+	url = https://github.com/ojsde/shariff.git
+[submodule "plugins/generic/disqus"]
+	path = plugins/generic/disqus
+	url = https://github.com/ajnyga/disqus.git
+[submodule "plugins/generic/hypothesis"]
+	path = plugins/generic/hypothesis
+	url = https://github.com/asmecher/hypothesis.git
+[submodule "plugins/generic/piwik"]
+	path = plugins/generic/piwik
+	url = https://github.com/pkp/piwik.git
+[submodule "plugins/importexport/quickSubmit"]
+	path = plugins/importexport/quickSubmit
+	url = https://github.com/pkp/quickSubmit.git
