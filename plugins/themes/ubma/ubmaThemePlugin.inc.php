@@ -27,7 +27,7 @@ class ubmaThemePlugin extends ThemePlugin {
 		$this->setParent('defaultthemeplugin');
 
 		// Add custom styles
-		$this->modifyStyle('stylesheet', array('addLess' => array('styles/index.less')));
+		$this->modifyStyle('stylesheet', array('addLess' => array('styles/index.less', 'styles/footer.less', 'styles/variables.less')));
 
 		// Remove the typography options of the parent theme.
 		// `removeOption` was introduced in OJS 3.0.2

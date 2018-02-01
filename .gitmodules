@@ -59,9 +59,6 @@
 [submodule "plugins/importexport/quickSubmit"]
 	path = plugins/importexport/quickSubmit
 	url = https://github.com/pkp/quickSubmit.git
-[submodule "plugins/generic/shariff"]
-	path = plugins/generic/shariff
-	url = https://github.com/ojsde/shariff.git
 [submodule "plugins/themes/bootstrap3"]
 	path = plugins/themes/bootstrap3
 	url = https://github.com/NateWr/bootstrap3.git

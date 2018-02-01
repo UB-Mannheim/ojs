@@ -20,7 +20,8 @@ class Application
         ],
         'domains' => [
             'journals.bib.uni-mannheim.de/ubdemo',
-            'journals.bib.uni-mannheim.de/diskurse-digital'
+            'journals.bib.uni-mannheim.de/diskurse-digital',
+            'journals.bib.uni-mannheim.de/zeitarbeit'
         ],
         'services' => [
             'GooglePlus',
