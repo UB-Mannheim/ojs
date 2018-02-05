@@ -59,9 +59,6 @@
 [submodule "plugins/importexport/quickSubmit"]
 	path = plugins/importexport/quickSubmit
 	url = https://github.com/pkp/quickSubmit.git
-[submodule "plugins/themes/bootstrap3"]
-	path = plugins/themes/bootstrap3
-	url = https://github.com/NateWr/bootstrap3.git
 [submodule "plugins/themes/oldGregg"]
 	path = plugins/themes/oldGregg
 	url = https://github.com/Vitaliy-1/oldGregg.git
