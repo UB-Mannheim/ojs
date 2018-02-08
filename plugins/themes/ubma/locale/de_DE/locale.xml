@@ -12,9 +12,19 @@
   -->
 
 <locale name="de_DE" full_name="Deutsch (Deutschland)">
-	<message key="plugins.themes.ubma.name">UBMA (abgeleitet vom Manuskript-Thema)</message>
-	<message key="plugins.themes.ubma.description">Ein reines, einfaches Thema mit einem verschachtelten Layout, das ein Papierdokument nachbildet.</message>
+	<message key="plugins.themes.ubma.name">UBMA</message>
+	<message key="plugins.themes.ubma.description">Ein Theme, das an die Bedürfnisse der UB Mannheim angepasst ist.</message>
 	<message key="plugins.themes.ubma.option.typography.montserrat_notoSerif">Montserrat/Noto Serif</message>
 	<message key="plugins.themes.ubma.option.accentColour.label">Farbe für Hervorhebungen</message>
     <message key="submissions.downloads">Downloads</message>
+
+<!-- Hier folgen alle Übersetzungen für Anpassungen auf der Homepage -->
+    <message key="site.aboutThis"><![CDATA[Die <a href="https://www.bib.uni-mannheim.de">Universitätsbibliothek Mannheim</a> bietet den Wissenschaftlerinnen und Wissenschaftlern der Universität Mannheim mit <a href="https://pkp.sfu.ca/ojs">Open Journal Systems</a> (OJS) eine Plattform sowie Support für die Herausgabe von Open-Access-Zeitschriften an.]]></message>
+    <message key="site.furtherInfo">Auf diesen Webseiten finden Sie weitere Informationen zur Plattform und unserem Service:</message>
+    <message key="site.ourService"><![CDATA[<a href="https://journals.bib.uni-mannheim.de/index/navigationMenu/view/service">Unser Service</a>]]></message>
+    <message key="site.aboutOJS"><![CDATA[<a href="https://journals.bib.uni-mannheim.de/index/navigationMenu/view/ueberojs">Über OJS</a>]]></message>
+    <message key="site.contact"><![CDATA[<a href="https://journals.bib.uni-mannheim.de/index/navigationMenu/view/kontakt">Kontakt</a>]]></message>
+    <message key="site.ourJournals">Diese Zeitschriften finden Sie bereits auf unserer OJS-Plattform:</message>
+
+    <message key="site.journalAllIssues">Alle Ausgaben</message>
 </locale>

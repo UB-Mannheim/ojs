@@ -12,11 +12,21 @@
 
 <div class="page_index_site">
 
-	{if $about}
+	{*{if $about}
 		<div class="about_site">
 			{$about|nl2br}
 		</div>
-	{/if}
+	{/if}*}
+
+    <div class="about_site">
+        <p>{translate key="site.aboutThis"}</p>
+        <p>{translate key="site.furtherInfo"}</p>
+        <ul>
+            <li>{translate key="site.ourService"}</li>
+            <li>{translate key="site.aboutOJS"}</li>
+            <li>{translate key="site.contact"}</li>
+        </ul>
+    </div>
 
 	<div class="journals">
 		<h2>
@@ -25,6 +35,7 @@
 		{if !count($journals)}
 			{translate key="site.noJournals"}
 		{else}
+        <p>{translate key="site.ourJournals"}</p>
 			<ul>
 				{iterate from=journals item=journal}
 					{capture assign="url"}{url journal=$journal->getPath()}{/capture}
@@ -60,6 +71,11 @@
 								<li class="current">
 									<a href="{url|escape journal=$journal->getPath() page="issue" op="current"}">
 										{translate key="site.journalCurrent"}
+									</a>
+								</li>
+								<li class="archive">
+									<a href="{url|escape journal=$journal->getPath() page="issue" op="archive"}">
+										{translate key="site.journalAllIssues"}
 									</a>
 								</li>
 							</ul>

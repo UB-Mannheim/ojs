@@ -12,9 +12,19 @@
   -->
 
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.themes.ubma.name">UBMA (Manuscript child theme)</message>
-	<message key="plugins.themes.ubma.description">A clean, simple theme with a boxed layout that mimics a paper document.</message>
+	<message key="plugins.themes.ubma.name">UBMA</message>
+	<message key="plugins.themes.ubma.description">A theme adapted to the needs of Mannheim UL.</message>
 	<message key="plugins.themes.ubma.option.typography.montserrat_notoSerif">Montserrat/Noto Serif</message>
 	<message key="plugins.themes.ubma.option.accentColour.label">Accent Colour</message>
     <message key="submissions.downloads">Downloads</message>
+
+<!-- Hier folgen alle Übersetzungen für Anpassungen auf der Homepage -->
+    <message key="site.aboutThis"><![CDATA[]]></message>
+    <message key="site.furtherInfo"></message>
+    <message key="site.ourService">Our service</message>
+    <message key="site.aboutOJS">About OJS</message>
+    <message key="site.contact">Contact</message>
+    <message key="site.ourJournals">Diese Zeitschriften finden Sie bereits auf unserer OJS-Plattform:</message>
+
+    <message key="site.journalAllIssues">All Issues</message>
 </locale>
