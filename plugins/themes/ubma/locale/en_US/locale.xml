@@ -26,5 +26,19 @@
     <message key="site.contact">Contact</message>
     <message key="site.ourJournals">Diese Zeitschriften finden Sie bereits auf unserer OJS-Plattform:</message>
 
+<!-- Registrierung -->
+        <message key="ubma.site.register.intro"></message>
+        <message key="ubma.site.register.newsletter"></message>
+        <message key="ubma.site.register.submissions"></message>
+        <message key="ubma.site.register.reviewer"></message>
+        <message key="ubma.site.register.fillform"></message>
+
+        <message key="ubma.site.register.privacy"></message>
+        <message key="ubma.site.register.mandatory"></message>
+        <message key="ubma.site.register.mail"></message>
+        <message key="ubma.site.register.delete"></message>
+        <message key="ubma.site.register.disclosure"></message>
+        <message key="ubma.site.register.policy">Please mind the <![CDATA[<a href="https://www.bib.uni-mannheim.de/en/privacy-policy/">Privacy Policy of Mannheim University Library</a>]]>.</message>
+
     <message key="site.journalAllIssues">All Issues</message>
 </locale>

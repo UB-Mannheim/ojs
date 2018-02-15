@@ -27,4 +27,18 @@
     <message key="site.ourJournals">Diese Zeitschriften finden Sie bereits auf unserer OJS-Plattform:</message>
 
     <message key="site.journalAllIssues">Alle Ausgaben</message>
+
+<!-- Registrierung -->
+        <message key="ubma.site.register.intro">Mit der persönlichen Registrierung bei Zeitschriften können Sie zusätzliche Funktionen nutzen:</message>
+        <message key="ubma.site.register.newsletter">Mit der Registrierung erhalten Sie automatisch die Newsletter der Zeitschriften, die Sie über neue Ausgaben und Mitteilungen der Herausgeber informiert.</message>
+        <message key="ubma.site.register.submissions">Sobald Sie registriert und eingeloggt sind, können Sie zudem Beiträge online einreichen.</message>
+        <message key="ubma.site.register.reviewer">Des Weiteren können Sie im Zuge der Registrierung die Funktion als externer Gutachter oder externe Gutachterin beantragen.</message>
+        <message key="ubma.site.register.fillform">Zur Registrierung füllen Sie bitte das folgende Formular aus.</message>
+
+        <message key="ubma.site.register.privacy">Hinweise zum Datenschutz</message>
+        <message key="ubma.site.register.mandatory">Die Angaben in den Pflichtfeldern sind für Ihre persönliche Registrierung erforderlich. Wenn diese Angaben fehlen oder unvollständig sind, können Sie sich nicht registrieren. Die Angaben in den übrigen Feldern sind freiwillig.</message>
+        <message key="ubma.site.register.mail">Ihre E-Mail-Adresse wird zur Versendung des Newsletters sowie für automatische Benachrichtigungen und die persönliche Kontaktaufnahme im Einreichungs- oder Begutachtungsprozess verwendet. Ihre Daten werden nicht an Dritte weitergegeben.</message>
+        <message key="ubma.site.register.delete">Um Ihren Account und die damit gespeicherten Daten zu löschen, wenden Sie sich bitte an publishing@uni-mannheim.de.</message>
+        <message key="ubma.site.register.disclosure">Nach §§ 21 und 22 Landesdatenschutzgesetz haben Sie das Recht, bei der Universität Mannheim unentgeltlich Auskunft über die zu Ihrer Person gespeicherten Daten zu erhalten und unrichtig gespeicherte Daten berichtigen zu lassen. Dazu wenden Sie sich bitte an publishing@uni-mannheim.de.</message>
+        <message key="ubma.site.register.policy">Bitte beachten Sie die <![CDATA[<a href="https://www.bib.uni-mannheim.de/datenschutzerklaerung/">Datenschutzerklärung der Universitätsbibliothek Mannheim</a>]]>.</message>
 </locale>
