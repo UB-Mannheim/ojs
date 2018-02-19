@@ -84,11 +84,28 @@ class SubmissionSubmitStep4Form extends PKPSubmissionSubmitStep4Form {
 			}
 			$mail->bccAssignedSubEditors($submission->getId(), WORKFLOW_STAGE_ID_SUBMISSION);
 
+            // UBMA: Get submission checklist for display in submission_ack mail
+            $ubma_checklist_string = '';
+            $ubma_checklist = $context->getLocalizedSetting('submissionChecklist');
+            if (!empty($ubma_checklist)) {
+                ksort($ubma_checklist);
+                reset($ubma_checklist);
+                $ubma_checklist_string .= __('about.submissionPreparationChecklist');
+                $ubma_checklist_string .= '<ul>';
+                foreach ($ubma_checklist as $item) {
+                    $ubma_checklist_string .= '<li>'.nl2br($item['content']).'</li>';
+                }
+                $ubma_checklist_string .= '</ul>';
+            } else {
+                $ubma_checklist_string = 'No checklist available.';
+            }
+
 			$mail->assignParams(array(
 				'authorName' => $user->getFullName(),
 				'authorUsername' => $user->getUsername(),
 				'editorialContactSignature' => $context->getSetting('contactName'),
 				'submissionUrl' => $router->url($request, null, 'authorDashboard', 'submission', $submission->getId()),
+                'ubma_submissionChecklist' => $ubma_checklist_string,
 			));
 
 			$authorMail->assignParams(array(
